@@ -1,0 +1,21 @@
+.listForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px 150px 20px 20px;
+    font-size: 20px;
+    width: 200px;
+}
+.button{
+    width: max-content;
+}
+.filterConttactName{
+    font-size: 18px;
+    font-weight: 400;
+}
+.find{
+    font-size: 18px;
+    font-weight: 400;
+    display: grid;
+}
