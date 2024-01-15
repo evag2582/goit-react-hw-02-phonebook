@@ -1,11 +1,10 @@
-// ContactItem.js
 import React from 'react';
 import PropTypes from 'prop-types';
 import css from '../App.module.css';
 
 const ContactItem = ({ contact, onDeleteContact }) => {
   return (
-    <li key={contact.id}>
+    <li className={css.filterConttactName} key={contact.id}>
       {contact.name} - {contact.number}
       <button onClick={() => onDeleteContact(contact.id)}>Delete</button>
     </li>
