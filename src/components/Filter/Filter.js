@@ -1,4 +1,3 @@
-// Filter.js
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import css from '../App.module.css'
@@ -10,7 +9,7 @@ class Filter extends Component {
   };
 
   render() {
-    const { contacts, onFilterChange } = this.props;
+    const { onFilterChange } = this.props;
 
     return (
       <div className={css.filterConttactName}>
